@@ -38,7 +38,7 @@ public class RNPushNotificationModule extends ReactContextBaseJavaModule {
 
     @Override
     public String getName() {
-        return "RNPushNotification";
+        return "RNPushNotificationModule";
     }
 
     @ReactMethod

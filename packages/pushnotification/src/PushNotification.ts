@@ -16,7 +16,7 @@ import Amplify, { ConsoleLogger as Logger } from '@aws-amplify/core';
 
 const logger = new Logger('Notification');
 
-const RNPushNotification = NativeModules.RNPushNotification;
+const RNPushNotification = NativeModules.RNPushNotificationModule;
 const REMOTE_NOTIFICATION_RECEIVED = 'remoteNotificationReceived';
 const REMOTE_TOKEN_RECEIVED = 'remoteTokenReceived';
 
